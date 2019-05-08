@@ -1,3 +1,4 @@
-C:/Users/Norbert/Desktop/Git/shopmanager/depository/cmake-build-debug/CMakeFiles/depository.dir
+C:/Users/Norbert/Desktop/Git/shopmanager/depository/cmake-build-debug/CMakeFiles/despository.dir
+C:/Users/Norbert/Desktop/Git/shopmanager/depository/cmake-build-debug/CMakeFiles/despository_test.dir
 C:/Users/Norbert/Desktop/Git/shopmanager/depository/cmake-build-debug/CMakeFiles/edit_cache.dir
 C:/Users/Norbert/Desktop/Git/shopmanager/depository/cmake-build-debug/CMakeFiles/rebuild_cache.dir
