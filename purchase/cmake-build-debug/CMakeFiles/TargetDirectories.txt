@@ -1,0 +1,4 @@
+C:/Users/szyli/Documents/INPG/shopmanager/purchase/cmake-build-debug/CMakeFiles/purchase.dir
+C:/Users/szyli/Documents/INPG/shopmanager/purchase/cmake-build-debug/CMakeFiles/purchase__test.dir
+C:/Users/szyli/Documents/INPG/shopmanager/purchase/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/szyli/Documents/INPG/shopmanager/purchase/cmake-build-debug/CMakeFiles/rebuild_cache.dir

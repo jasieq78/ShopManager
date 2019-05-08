@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/szyli/Documents/INPG/shopmanager/purchase/main.cpp
+iostream
+-
+
+C:/Users/szyli/Documents/INPG/shopmanager/purchase/src/purchase.cpp
+purchase.hpp
+C:/Users/szyli/Documents/INPG/shopmanager/purchase/src/purchase.hpp
+

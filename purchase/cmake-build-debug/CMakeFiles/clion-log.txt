@@ -1,0 +1,4 @@
+"C:\Program Files (x86)\CLION\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" C:\Users\szyli\Documents\INPG\shopmanager\purchase
+-- Configuring done
+-- Generating done
+-- Build files have been written to: C:/Users/szyli/Documents/INPG/shopmanager/purchase/cmake-build-debug
