@@ -64,39 +64,92 @@ CMAKE_SOURCE_DIR = C:\Users\szyli\Documents\INPG\shopmanager\depository
 CMAKE_BINARY_DIR = C:\Users\szyli\Documents\INPG\shopmanager\depository\cmake-build-debug
 
 #=============================================================================
-# Target rules for target CMakeFiles/depository.dir
+# Target rules for target CMakeFiles/despository.dir
 
 # All Build rule for target.
+<<<<<<< HEAD
 CMakeFiles/depository.dir/all:
 	$(MAKE) -f CMakeFiles\depository.dir\build.make CMakeFiles/depository.dir/depend
 	$(MAKE) -f CMakeFiles\depository.dir\build.make CMakeFiles/depository.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\szyli\Documents\INPG\shopmanager\depository\cmake-build-debug\CMakeFiles --progress-num=1,2 "Built target depository"
 .PHONY : CMakeFiles/depository.dir/all
+=======
+CMakeFiles/despository.dir/all:
+	$(MAKE) -f CMakeFiles\despository.dir\build.make CMakeFiles/despository.dir/depend
+	$(MAKE) -f CMakeFiles\despository.dir\build.make CMakeFiles/despository.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Norbert\Desktop\Git\shopmanager\depository\cmake-build-debug\CMakeFiles --progress-num=1,2,3 "Built target despository"
+.PHONY : CMakeFiles/despository.dir/all
+>>>>>>> a6f000257d3ae5247deebe4c7bf0fe7cff4ba493
 
 # Include target in all.
-all: CMakeFiles/depository.dir/all
+all: CMakeFiles/despository.dir/all
 
 .PHONY : all
 
 # Build rule for subdir invocation for target.
+<<<<<<< HEAD
 CMakeFiles/depository.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\szyli\Documents\INPG\shopmanager\depository\cmake-build-debug\CMakeFiles 2
 	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/depository.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\szyli\Documents\INPG\shopmanager\depository\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/depository.dir/rule
+=======
+CMakeFiles/despository.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Norbert\Desktop\Git\shopmanager\depository\cmake-build-debug\CMakeFiles 3
+	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/despository.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Norbert\Desktop\Git\shopmanager\depository\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/despository.dir/rule
+>>>>>>> a6f000257d3ae5247deebe4c7bf0fe7cff4ba493
 
 # Convenience name for target.
-depository: CMakeFiles/depository.dir/rule
+despository: CMakeFiles/despository.dir/rule
 
-.PHONY : depository
-
-# clean rule for target.
-CMakeFiles/depository.dir/clean:
-	$(MAKE) -f CMakeFiles\depository.dir\build.make CMakeFiles/depository.dir/clean
-.PHONY : CMakeFiles/depository.dir/clean
+.PHONY : despository
 
 # clean rule for target.
-clean: CMakeFiles/depository.dir/clean
+CMakeFiles/despository.dir/clean:
+	$(MAKE) -f CMakeFiles\despository.dir\build.make CMakeFiles/despository.dir/clean
+.PHONY : CMakeFiles/despository.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/despository.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/despository_test.dir
+
+# All Build rule for target.
+CMakeFiles/despository_test.dir/all:
+	$(MAKE) -f CMakeFiles\despository_test.dir\build.make CMakeFiles/despository_test.dir/depend
+	$(MAKE) -f CMakeFiles\despository_test.dir\build.make CMakeFiles/despository_test.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Norbert\Desktop\Git\shopmanager\depository\cmake-build-debug\CMakeFiles --progress-num=4,5,6 "Built target despository_test"
+.PHONY : CMakeFiles/despository_test.dir/all
+
+# Include target in all.
+all: CMakeFiles/despository_test.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/despository_test.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Norbert\Desktop\Git\shopmanager\depository\cmake-build-debug\CMakeFiles 3
+	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/despository_test.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Norbert\Desktop\Git\shopmanager\depository\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/despository_test.dir/rule
+
+# Convenience name for target.
+despository_test: CMakeFiles/despository_test.dir/rule
+
+.PHONY : despository_test
+
+# clean rule for target.
+CMakeFiles/despository_test.dir/clean:
+	$(MAKE) -f CMakeFiles\despository_test.dir\build.make CMakeFiles/despository_test.dir/clean
+.PHONY : CMakeFiles/despository_test.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/despository_test.dir/clean
 
 .PHONY : clean
 

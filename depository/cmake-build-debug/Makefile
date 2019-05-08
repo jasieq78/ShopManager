@@ -110,17 +110,30 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named depository
+# Target rules for targets named despository
 
 # Build rule for target.
-depository: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 depository
-.PHONY : depository
+despository: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 despository
+.PHONY : despository
 
 # fast build rule for target.
-depository/fast:
-	$(MAKE) -f CMakeFiles\depository.dir\build.make CMakeFiles/depository.dir/build
-.PHONY : depository/fast
+despository/fast:
+	$(MAKE) -f CMakeFiles\despository.dir\build.make CMakeFiles/despository.dir/build
+.PHONY : despository/fast
+
+#=============================================================================
+# Target rules for targets named despository_test
+
+# Build rule for target.
+despository_test: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 despository_test
+.PHONY : despository_test
+
+# fast build rule for target.
+despository_test/fast:
+	$(MAKE) -f CMakeFiles\despository_test.dir\build.make CMakeFiles/despository_test.dir/build
+.PHONY : despository_test/fast
 
 main.obj: main.cpp.obj
 
@@ -128,7 +141,7 @@ main.obj: main.cpp.obj
 
 # target to build an object file
 main.cpp.obj:
-	$(MAKE) -f CMakeFiles\depository.dir\build.make CMakeFiles/depository.dir/main.cpp.obj
+	$(MAKE) -f CMakeFiles\despository.dir\build.make CMakeFiles/despository.dir/main.cpp.obj
 .PHONY : main.cpp.obj
 
 main.i: main.cpp.i
@@ -137,7 +150,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	$(MAKE) -f CMakeFiles\depository.dir\build.make CMakeFiles/depository.dir/main.cpp.i
+	$(MAKE) -f CMakeFiles\despository.dir\build.make CMakeFiles/despository.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -146,8 +159,65 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	$(MAKE) -f CMakeFiles\depository.dir\build.make CMakeFiles/depository.dir/main.cpp.s
+	$(MAKE) -f CMakeFiles\despository.dir\build.make CMakeFiles/despository.dir/main.cpp.s
 .PHONY : main.cpp.s
+
+src/despository.obj: src/despository.cpp.obj
+
+.PHONY : src/despository.obj
+
+# target to build an object file
+src/despository.cpp.obj:
+	$(MAKE) -f CMakeFiles\despository.dir\build.make CMakeFiles/despository.dir/src/despository.cpp.obj
+	$(MAKE) -f CMakeFiles\despository_test.dir\build.make CMakeFiles/despository_test.dir/src/despository.cpp.obj
+.PHONY : src/despository.cpp.obj
+
+src/despository.i: src/despository.cpp.i
+
+.PHONY : src/despository.i
+
+# target to preprocess a source file
+src/despository.cpp.i:
+	$(MAKE) -f CMakeFiles\despository.dir\build.make CMakeFiles/despository.dir/src/despository.cpp.i
+	$(MAKE) -f CMakeFiles\despository_test.dir\build.make CMakeFiles/despository_test.dir/src/despository.cpp.i
+.PHONY : src/despository.cpp.i
+
+src/despository.s: src/despository.cpp.s
+
+.PHONY : src/despository.s
+
+# target to generate assembly for a file
+src/despository.cpp.s:
+	$(MAKE) -f CMakeFiles\despository.dir\build.make CMakeFiles/despository.dir/src/despository.cpp.s
+	$(MAKE) -f CMakeFiles\despository_test.dir\build.make CMakeFiles/despository_test.dir/src/despository.cpp.s
+.PHONY : src/despository.cpp.s
+
+test/main_gtest.obj: test/main_gtest.cpp.obj
+
+.PHONY : test/main_gtest.obj
+
+# target to build an object file
+test/main_gtest.cpp.obj:
+	$(MAKE) -f CMakeFiles\despository_test.dir\build.make CMakeFiles/despository_test.dir/test/main_gtest.cpp.obj
+.PHONY : test/main_gtest.cpp.obj
+
+test/main_gtest.i: test/main_gtest.cpp.i
+
+.PHONY : test/main_gtest.i
+
+# target to preprocess a source file
+test/main_gtest.cpp.i:
+	$(MAKE) -f CMakeFiles\despository_test.dir\build.make CMakeFiles/despository_test.dir/test/main_gtest.cpp.i
+.PHONY : test/main_gtest.cpp.i
+
+test/main_gtest.s: test/main_gtest.cpp.s
+
+.PHONY : test/main_gtest.s
+
+# target to generate assembly for a file
+test/main_gtest.cpp.s:
+	$(MAKE) -f CMakeFiles\despository_test.dir\build.make CMakeFiles/despository_test.dir/test/main_gtest.cpp.s
+.PHONY : test/main_gtest.cpp.s
 
 # Help Target
 help:
@@ -155,12 +225,19 @@ help:
 	@echo ... all (the default if no target is provided)
 	@echo ... clean
 	@echo ... depend
-	@echo ... depository
+	@echo ... despository
+	@echo ... despository_test
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
+	@echo ... src/despository.obj
+	@echo ... src/despository.i
+	@echo ... src/despository.s
+	@echo ... test/main_gtest.obj
+	@echo ... test/main_gtest.i
+	@echo ... test/main_gtest.s
 .PHONY : help
 
 

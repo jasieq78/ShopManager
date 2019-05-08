@@ -1,0 +1,8 @@
+//
+// Created by Norbert on 08.05.2019.
+//
+
+#ifndef DEPOSITORY_DESPOSITORY_HPP
+#define DEPOSITORY_DESPOSITORY_HPP
+
+#endif //DEPOSITORY_DESPOSITORY_HPP

@@ -1,3 +1,10 @@
+<<<<<<< HEAD
 C:/Users/szyli/Documents/INPG/shopmanager/depository/cmake-build-debug/CMakeFiles/depository.dir
 C:/Users/szyli/Documents/INPG/shopmanager/depository/cmake-build-debug/CMakeFiles/edit_cache.dir
 C:/Users/szyli/Documents/INPG/shopmanager/depository/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+=======
+C:/Users/Norbert/Desktop/Git/shopmanager/depository/cmake-build-debug/CMakeFiles/despository.dir
+C:/Users/Norbert/Desktop/Git/shopmanager/depository/cmake-build-debug/CMakeFiles/despository_test.dir
+C:/Users/Norbert/Desktop/Git/shopmanager/depository/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/Norbert/Desktop/Git/shopmanager/depository/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+>>>>>>> a6f000257d3ae5247deebe4c7bf0fe7cff4ba493

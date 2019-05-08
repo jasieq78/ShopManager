@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/Norbert/Desktop/Git/shopmanager/depository/main.cpp
+iostream
+-
+
+C:/Users/Norbert/Desktop/Git/shopmanager/depository/src/despository.cpp
+
