@@ -126,9 +126,6 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="C:/Users/szyli/Documents/INPG/shopmanager/purchase/include/purchase.h">
-			<Option target="purchase__test"/>
-		</Unit>
 		<Unit filename="C:/Users/szyli/Documents/INPG/shopmanager/purchase/include/purchase.hpp">
 			<Option target="purchase__test"/>
 		</Unit>
