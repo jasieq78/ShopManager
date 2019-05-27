@@ -23,11 +23,11 @@ set(SOURCES_FILES_TESTS
 add_executable(database__test ${SOURCE_FILES} ${SOURCES_FILES_TESTS} test/main_gtest.cpp)
 
 target_include_directories(database__test PUBLIC
-        ../../googletest-master/googlemock/include
-        ../../googletest-master/googletest/include
+        ../googletest-master/googlemock/include
+        ../googletest-master/googletest/include
         )
 
-add_subdirectory(../../googletest-master googletest-master)
+add_subdirectory(../googletest-master googletest-master)
 
 target_link_libraries(database__test gmock)
 

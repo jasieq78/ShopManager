@@ -1,5 +1,5 @@
 #include <iostream>
-#include <mysql.h>
+#include <mysql/mysql.h>
 
 MYSQL database_sm // tworzymy zmienną typu MYSQL
 mysql_init(&database_sm); // inicjalizacja
